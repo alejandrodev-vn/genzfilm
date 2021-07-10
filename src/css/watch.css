@@ -1,0 +1,28 @@
+.genZ-film .iframe{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.iframe{
+    width: 100%;
+    height: 730px;
+}
+.episodes-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.episode{
+    padding: 3px 12px;
+    background: #eee;
+    color: #000;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.episode:hover{
+    background: #000;
+}
+.episode.active{
+    background: tomato;
+}

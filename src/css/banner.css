@@ -1,0 +1,17 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color:#000;
+}
+.banner__item{
+    border-left: 15px dashed white;
+    border-right: 15px dashed white;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:90%;
+    display:flex;
+
+}
+.banner__item-img{
+    object-fit: cover;
+}
