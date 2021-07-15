@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import Item from './Item'
-import '../css/carousel.css';
 
-const Carousel = ({title, listFilms, listCategories}) => {
+const Carousel = (props) => {
     const [ translate, setTranslate ] = useState({translateX:0})
     function prevSlide(){
         if(translate.translateX === 0){
@@ -25,8 +24,8 @@ const Carousel = ({title, listFilms, listCategories}) => {
     }
     const processCarousel = () => {
         let html = <div className="carousel" style={{transform: `translateX(${translate.translateX}px)`}}>
-                       {listFilms.map((film,key) => {
-                           return(<Item film={film} listCategories={listCategories} key={key} />)
+                       {props.listFilms.map((film,key) => {
+                           return(<Item film={film} listCategories={props.listCategories} key={key} />)
                         })}
                     
                     </div>
@@ -35,7 +34,7 @@ const Carousel = ({title, listFilms, listCategories}) => {
     return (
         <section className="carousel-section">
             <div className="title-wrapper">
-                <h2 className="title">{title}</h2>
+                <h2 className="title">{props.title}</h2>
                 <a href="#">Xem tất cả <i className="fas fa-arrow-right"></i></a>
             </div>
             <div className="carousel-wrapper">

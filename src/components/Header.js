@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import '../css/header.css'
 import { Link } from 'react-router-dom';
 function Header(){
     return (
@@ -14,6 +13,9 @@ function Header(){
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/film">Tất cả</Link>
+                        </li>
                         <li className="nav-item active">
                             <a className="nav-link" href="#">Thể loại<i className="fas fa-sort-down"></i></a>
                             <ul className="nav-item__sublist">

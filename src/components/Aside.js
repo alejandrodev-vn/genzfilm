@@ -1,6 +1,5 @@
 /* eslint-disable no-restricted-globals */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import '../css/aside.css'
 import ItemRating from './ItemRating'
 function Aside(){
  

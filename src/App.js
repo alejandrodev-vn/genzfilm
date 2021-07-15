@@ -1,6 +1,7 @@
-import './App.css';
+import './scss/main.scss';
 import Home from './pages/Home';
 import About from './pages/About';
+import Film from './pages/Film';
 import FilmDetail from './pages/FilmDetail';
 import Watch from './pages/Watch';
 import Footer from './components/Footer';
@@ -20,6 +21,7 @@ const App = () => {
           <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/about" component={About}/>
+            <Route path="/film" exact component={Film}/>
             <Route path="/film/:id"  component={FilmDetail}/>
             <Route path="/watch/:id" component={Watch}/>
           </Switch>

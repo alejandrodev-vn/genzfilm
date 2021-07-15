@@ -3,8 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import Aside from '../components/Aside'
-import '../css/film-detail.css'
-import { getNameCategory } from '../utils/getNameCategory'
+import useGetNameCategory from '../hooks/useGetNameCategory';
 const FilmDetail = ({match}) => {
     const [ film, setFilm ] = useState({})
     const [ type, setType ] = useState({})
@@ -30,23 +29,9 @@ const FilmDetail = ({match}) => {
         }
         getFilmDetail()
     },[match.params.id])
-    const loopCat =  (cats) => {
-        const temp = [];
-       cats.map((cat,i) => {
-            if(cat[0]){
-                temp.push(cat[0].name)
-            }
-        })
-        const result = temp.join(", ")
-        return result
-    }
-    const getCategories = (film, listCategories) => {
-        const listName =  getNameCategory(film.categories , listCategories);
-        if(listName){
-            return loopCat(listName)
-        }
-    }
-   
+    
+    const  categoriesString  = useGetNameCategory(film, listCategories)
+
     return ( 
         <>
         <div className="container">
@@ -67,7 +52,7 @@ const FilmDetail = ({match}) => {
                                 </div>
                                 <div className="film-info">
                                     <p className="film-info__left">Thể loại: </p>
-                                    <p className="film-info__right">{getCategories(film, listCategories)}</p>
+                                    <p className="film-info__right">{categoriesString}</p>
                                     <p></p>
                                 </div>
                                 <div className="film-info">
@@ -78,7 +63,14 @@ const FilmDetail = ({match}) => {
                                     <p className="film-info__left">Lượt xem: </p>
                                     <p className="film-info__right">235 <i  className="far fa-eye"></i></p>
                                 </div>
-                                <Link to={`/watch/${film.id}?episode=1`} className="btn btn-danger" style={{marginTop:"10px",marginBottom:"5px"}}>Xem phim</Link>
+                                {console.log(film.episode)}
+                                <Link to={
+                                    `/watch/${film.id}?episode=${(film.episode && film.episode[0]) ? film.episode[0].url : ''}`
+                                    } 
+                                    className="btn btn-danger" 
+                                    style={{marginTop:"10px",marginBottom:"5px"}}
+                                    >Xem phim
+                                </Link>
                                 <div className="film-description">
                                     <h6 className="film-description__title">Tóm tắt nội dung</h6>
                                     <p className="film-description__content">{film.description}</p>

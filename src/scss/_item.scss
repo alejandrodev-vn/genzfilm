@@ -1,0 +1,36 @@
+.item {
+    display: -webkit-flex;
+    flex-direction: column;
+    min-width: 230px;
+    max-width: 230px;
+    height: 400px;
+    margin-right: 15px;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 75%;
+        left: 0;
+        right: 0;
+        background-color: #000;
+        opacity: 0;
+        z-index: 99;
+        transition: opacity 0.3s ease-in-out;
+    }
+    :hover::after {
+        opacity: 0.2;
+    }
+    img {
+        object-fit: cover;
+    }
+    .name {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    .name-small {
+        font-size: 15px;
+        color: #abb7c4;
+        padding-left: 10px;
+    }
+}

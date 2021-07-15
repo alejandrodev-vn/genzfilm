@@ -2400,7 +2400,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "TV SHOW",
+          "categories": [
+            {
+            "idCategory": 11
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -11781,7 +11785,7 @@
               "type": "iframe"
             }
           ],
-          "imageUrl": "https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/605f3f89c64c34535a55c5ba_poster-the-gioi-bl-va-chang-trai-khong-muon-bi-b%E1%BA%BB-cong.jpg",
+          "imageUrl": "https://media.voocdn.com/media/image/id/605f55faacc399e2ba8b4594_480x",
           "title": "Thế Giới BL và Chàng Trai Không Muốn Bị Bẻ Cong",
           "url": "https://www.fullphimz.net/p/the-gioi-bl-va-chang-trai-khong-muon-bi-be-cong-tap-1"
         },
@@ -11790,7 +11794,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Hài Hước",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -13874,7 +13882,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Hài Hước",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -14510,7 +14522,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -15584,7 +15600,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -16556,7 +16576,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "TV SHOW",
+          "categories": [
+            {
+            "idCategory": 11
+            }
+          ],
           "episode": [
             {
               "episode": "0",
@@ -16813,7 +16837,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "TV SHOW",
+          "categories": [
+            {
+            "idCategory": 11
+            }
+          ],
           "episode": [
             {
               "episode": "1 (A)",
@@ -29414,7 +29442,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -29532,7 +29564,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -29704,7 +29740,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             
           ],
@@ -31393,7 +31433,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -31658,7 +31702,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -31850,7 +31898,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Hài Hước",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             
           ],
@@ -37947,7 +37999,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -39016,7 +39072,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -39189,7 +39249,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -40326,7 +40390,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1 ",
@@ -42560,7 +42628,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -43668,7 +43740,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://short.ink/z2pmhw9dKv",
@@ -44384,7 +44460,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://short.ink/2vAGjG4zo",
@@ -45720,7 +45800,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://ok.ru/videoembed/2499654453998",
@@ -45836,7 +45920,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://short.ink/8WZGIyEvC4",
@@ -46352,7 +46440,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://ok.ru/videoembed/2456336075502",
@@ -47108,7 +47200,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://short.ink/TP_BmLxEg",
@@ -47484,7 +47580,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://short.ink/b0O2tuurm",
@@ -47760,7 +47860,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://short.ink/DmGFzqGny",
@@ -47916,7 +48020,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://playhydrax.com/?v=nxCqiHuLMF",
@@ -48012,7 +48120,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://playhydrax.com/?v=X076voOke",
@@ -48028,7 +48140,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://playhydrax.com/?v=XYO1UgKfU",
@@ -48044,7 +48160,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://playhydrax.com/?v=puaJU9c5e",
@@ -48200,7 +48320,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://playhydrax.com/?v=RZqqhE79lU",
@@ -48336,7 +48460,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/RqQR0AvOr4FdWV9/",
@@ -48472,7 +48600,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://playhydrax.com/?v=__s_bLwv1",
@@ -48488,7 +48620,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://playhydrax.com/?v=HgOmQwXSrs",
@@ -48744,7 +48880,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/xqZV9pPgyWikWJ9/",
@@ -48760,7 +48900,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/QXB0YPzrGmT0mAA/",
@@ -48776,7 +48920,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/p4QeevRXmdCr4qJ/",
@@ -48792,7 +48940,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/DZ4rXvPLDDhVjg/",
@@ -48808,7 +48960,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/2akjyQmgJjIZYv7/",
@@ -48924,7 +49080,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/P3aAev3Rz1IgVJ/",
@@ -49000,7 +49160,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/O1WWePmZxBuZV9y/",
@@ -49016,7 +49180,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/JA9dlrrbpmij88v/",
@@ -49032,7 +49200,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/LYxX0kZJ7PCZAB/",
@@ -49048,7 +49220,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/gRq18rXQaqSGVw/",
@@ -49064,7 +49240,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/jlYlDY63LLiQQx/",
@@ -49080,7 +49260,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/rb772eGB77tbjGG/",
@@ -49096,7 +49280,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/6Wgw11elk4s9XPy/",
@@ -49112,7 +49300,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/PJkGeMpK4bF04A3/",
@@ -50311,7 +50503,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/ekGrRqBK1bCmkj/",
@@ -50467,7 +50663,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/k3PVK8AYRmhOLj6/",
@@ -50483,7 +50683,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Hài Hước",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/DlOxWL4BbMTkP6X/",
@@ -50659,7 +50863,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/zVDWKWxQrotYPL0/",
@@ -51075,7 +51283,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://short.ink/jvB3KXJ9O",
@@ -51091,7 +51303,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/k9pGrZJka6tDmd/",
@@ -51127,7 +51343,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/QW8J1K9vvOt0OVR/",
@@ -51143,7 +51363,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/QKOKRY6w0VS0mQW/",
@@ -51159,7 +51383,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/PyKexR6kWWh0QWk/",
@@ -51175,7 +51403,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/WbQY8JwKxacRwJ/",
@@ -51191,7 +51423,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/927bojqBvotaG1W/",
@@ -51207,7 +51443,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "url": "https://streamtape.com/e/GXOzDkg02vT1rrw/",
@@ -51390,7 +51630,7 @@
            ],
           "episode": [
             {
-              "url": "https://streamtape.com/e/dPMy09rQYwFkpop/",
+              "url": "https://short.icu/A-C2zSaGq",
               "type": "iframe"
             }
           ],
@@ -53585,7 +53825,11 @@
           "typeId": 1,
           "country": 1,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
-          "categories": "Phim phiêu lưu",
+          "categories": [
+            {
+            "idCategory": 5
+            }
+          ],
           "episode": [
             {
               "episode": "1",
@@ -54509,7 +54753,7 @@
         }
       
     ],
-    "hotFilms": [
+    "hot-films": [
       {
         "id": 899,
         "typeId": 1,
@@ -54555,7 +54799,18 @@
             "episode": "2 (Server Dự Phòng)",
             "url": "https://short.ink/kCtOilTtS",
             "type": "iframe"
+          },
+          {
+            "episode": "3",
+            "url": "https://ok.ru/3257e655-a984-42f5-b89c-132192111207",
+            "type": "iframe"
+          },
+          {
+            "episode": "4",
+            "url": "https://ok.ru/92846f66-0fe8-4fe0-9ec9-53e280adbe79",
+            "type": "iframe"
           }
+        
         ],
         "imageUrl": "https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/60cd868ab4c77e6952bef8f3_poster-dau-biet-nevertheless-netflix.jpg",
         "title": "Dẫu Biết - Nevertheless Netflix (2021)",
@@ -54573,7 +54828,8 @@
          ],
         "episode": [
           {
-            "url": "https://streamtape.com/e/dPMy09rQYwFkpop/",
+            "episode": "1",
+            "url": "https://short.icu/A-C2zSaGq",
             "type": "iframe"
           }
         ],
@@ -55224,6 +55480,18 @@
       {
           "id": 10,
           "name" : "Hoạt hình"
+      },
+      {
+        "id": 11,
+        "name" : "TV Show"
+      },
+      {
+        "id": 12,
+        "name" : [
+            {
+            "idCategory": 5
+            }
+          ]
       }
   ],
   "countries": [

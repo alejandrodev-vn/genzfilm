@@ -1,37 +1,37 @@
-.info-main{
-    display:flex;
+.info-main {
+    display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
-.info-main__left{
-    width:30%;
-    height:410px;
+.info-main__left {
+    width: 30%;
+    height: 410px;
     overflow: hidden;
 }
 .info-main__left img {
     object-fit: cover;
 }
-.info-main__right{
-    width:65%;
+.info-main__right {
+    width: 65%;
 }
-.film-info{
-    display:flex;
+.film-info {
+    display: flex;
 }
-.film-info__left{
+.film-info__left {
     font-size: 20px;
 }
-.film-info__right{
+.film-info__right {
     padding-left: 5px;
     font-size: 20px;
-    color: rgb(30 201 46);
+    color: #ff9438;
 }
-.film-description__title{
+.film-description__title {
     padding-top: 10px;
     font-size: 22px;
     color: #ff9438;
     font-weight: bold;
 }
-.film-description__content{
-    height:150px;
+.film-description__content {
+    height: 150px;
     overflow: scroll;
 }

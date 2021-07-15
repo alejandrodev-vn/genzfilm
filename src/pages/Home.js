@@ -35,7 +35,7 @@ const Home = () => {
    
         const getListHotFilms = async () => {
           try{
-            const res = await fetch('http://localhost:4000/hotFilms')
+            const res = await fetch('http://localhost:4000/hot-films')
             const data = await res.json()
             setListHotFilms(data) 
           }catch(err){

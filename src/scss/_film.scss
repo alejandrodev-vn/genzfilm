@@ -1,0 +1,12 @@
+.film-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .item {
+        min-width: 210px;
+        max-width: 210px;
+        margin-bottom: 5px;
+        margin-left: 14px;
+    }
+}
