@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/genzfilm/static/css/main.f3fc2f16.chunk.css",
-    "main.js": "/genzfilm/static/js/main.94930026.chunk.js",
-    "main.js.map": "/genzfilm/static/js/main.94930026.chunk.js.map",
+    "main.js": "/genzfilm/static/js/main.108da50d.chunk.js",
+    "main.js.map": "/genzfilm/static/js/main.108da50d.chunk.js.map",
     "runtime-main.js": "/genzfilm/static/js/runtime-main.d94775af.js",
     "runtime-main.js.map": "/genzfilm/static/js/runtime-main.d94775af.js.map",
     "static/js/2.d0829821.chunk.js": "/genzfilm/static/js/2.d0829821.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d94775af.js",
     "static/js/2.d0829821.chunk.js",
     "static/css/main.f3fc2f16.chunk.css",
-    "static/js/main.94930026.chunk.js"
+    "static/js/main.108da50d.chunk.js"
   ]
 }
