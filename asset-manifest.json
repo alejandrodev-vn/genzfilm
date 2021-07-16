@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/genzfilm/static/css/main.f3fc2f16.chunk.css",
-    "main.js": "/genzfilm/static/js/main.de46749f.chunk.js",
-    "main.js.map": "/genzfilm/static/js/main.de46749f.chunk.js.map",
+    "main.css": "/genzfilm/static/css/main.b95e5bf3.chunk.css",
+    "main.js": "/genzfilm/static/js/main.cd0dafa2.chunk.js",
+    "main.js.map": "/genzfilm/static/js/main.cd0dafa2.chunk.js.map",
     "runtime-main.js": "/genzfilm/static/js/runtime-main.d94775af.js",
     "runtime-main.js.map": "/genzfilm/static/js/runtime-main.d94775af.js.map",
     "static/js/2.d0829821.chunk.js": "/genzfilm/static/js/2.d0829821.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.921fad67.chunk.js": "/genzfilm/static/js/3.921fad67.chunk.js",
     "static/js/3.921fad67.chunk.js.map": "/genzfilm/static/js/3.921fad67.chunk.js.map",
     "index.html": "/genzfilm/index.html",
-    "static/css/main.f3fc2f16.chunk.css.map": "/genzfilm/static/css/main.f3fc2f16.chunk.css.map",
+    "static/css/main.b95e5bf3.chunk.css.map": "/genzfilm/static/css/main.b95e5bf3.chunk.css.map",
     "static/js/2.d0829821.chunk.js.LICENSE.txt": "/genzfilm/static/js/2.d0829821.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d94775af.js",
     "static/js/2.d0829821.chunk.js",
-    "static/css/main.f3fc2f16.chunk.css",
-    "static/js/main.de46749f.chunk.js"
+    "static/css/main.b95e5bf3.chunk.css",
+    "static/js/main.cd0dafa2.chunk.js"
   ]
 }
