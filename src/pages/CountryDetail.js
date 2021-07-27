@@ -9,12 +9,12 @@ const CountryDetail = ({match}) => {
     const [ country, setCountry ] = useState({})
     const [ listFilms, setListFilms ] = useState([])
     const [ isLoading, setIsLoading ] = useState(true)
-    const url = "http://localhost:4000/"
+    const domain = process.env.REACT_APP_DOMAIN
     const { id } = match.params
     useEffect(() =>{
         const getListFilm = async () => {
             try {
-               const res = await fetch(`${url}films`) 
+               const res = await fetch(`${domain}/films`) 
                const data = await res.json()
                let result = []
                for(let i = 0; i < data.length; i++){
@@ -31,7 +31,7 @@ const CountryDetail = ({match}) => {
         getListFilm()
         const getCountry = async () => {
             try {
-               const res = await fetch(`${url}countries/${id}`) 
+               const res = await fetch(`${domain}/countries/${id}`) 
                const data = await res.json()
                setCountry(data)
             } catch (error) {
@@ -39,6 +39,10 @@ const CountryDetail = ({match}) => {
             }
         }
         getCountry()
+        return () => {
+            setListFilms([])
+            setCountry({})
+        }
     },[id])
    if(isLoading) {
        return (

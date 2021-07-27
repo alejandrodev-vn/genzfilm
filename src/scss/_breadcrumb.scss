@@ -1,0 +1,10 @@
+.breadcrumb-wrapper {
+    .breadcrumb {
+        align-items: center;
+        &-item {
+            &.active a {
+                color: #ff9438;
+            }
+        }
+    }
+}

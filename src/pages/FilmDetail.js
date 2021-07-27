@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable array-callback-return */
 import { useState, useEffect } from 'react';
@@ -8,26 +9,32 @@ const FilmDetail = ({match}) => {
     const [ film, setFilm ] = useState({})
     const [ type, setType ] = useState({})
     const [ listCategories, setListCategories ] = useState([])
+    const domain = process.env.REACT_APP_DOMAIN
     useEffect(()=>{
         const getType = async (typeId) =>{
-            const res = await fetch(`https://genzfilm.herokuapp.com/types/${typeId}`)
+            const res = await fetch(`${domain}/types/${typeId}`)
             const data = await res.json()
             setType(data)
         }
         const getAllCategories = async () =>{
-            const res = await fetch(`http://localhost:4000/categories`)
+            const res = await fetch(`${domain}/categories`)
             const data = await res.json()
             setListCategories(data)
         }
         getAllCategories()
         const getFilmDetail = async () =>{
-            const res = await fetch(`http://localhost:4000/films/${match.params.id}`)
+            const res = await fetch(`${domain}/films/${match.params.id}`)
             const data = await res.json()
             data.episodeLength = data.episode.length
             setFilm(data)
             getType(data.typeId)
         }
         getFilmDetail()
+        return () => {
+            setType({})
+            setListCategories([])
+            setFilm({})
+        }
     },[match.params.id])
     
     const  categoriesString  = useGetNameCategory(film, listCategories)

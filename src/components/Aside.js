@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect } from 'react';
 import ItemRating from './ItemRating'
-function Aside(){
+const Aside = () =>{
     const [ listBanner, setListBanner ] = useState([])
     const url = 'http://localhost:4000/banners'
     useEffect(() =>{
@@ -16,6 +16,9 @@ function Aside(){
             }
         }
         getListBanner()
+        return () => {
+            setListBanner([])
+        }
     },[])
       return (
         <aside className="aside data_full_widthpt-3 col-md-3">

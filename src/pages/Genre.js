@@ -14,6 +14,9 @@ const Genre = ({match}) => {
             }
           }
           getCategories()
+          return () => {
+              setListCategories([])
+          }
     },[])
     return (
         <div className="container">

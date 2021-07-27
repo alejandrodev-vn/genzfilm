@@ -53,6 +53,13 @@ const GenreDetail = ({match}) => {
             }
         }
         getCategoryDetail()
+
+        //cleanup before unmount
+        return () => {
+            setListFilms([])
+            setListCategories([])
+            setCategoryDetail({})
+        }
     },[id])
      
     const onLikeItem = (id) => {
