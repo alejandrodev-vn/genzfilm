@@ -1,44 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import Item from '../components/Item'
-import Aside from '../components/Aside'
-
+import React, { useContext } from 'react';
+import Aside from '../components/Aside';
+import Item from '../components/Item';
+import Loading from '../components/Loading';
+import { FilmsContext } from '../contexts//FilmsContext';
 
 const Film = () => {
-    const [ listFilms, setListFilms ] = useState([])
-    const [ listCategories, setListCategories ] = useState([])
-    const [ isLoading, setIsLoading ] = useState(true)
-    useEffect(() =>{
-        const getCategories = async () => {
-            try{
-              const res = await fetch('http://localhost:4000/categories')
-              const data = await res.json()        
-              setListCategories(data) 
-            }catch(err){
-              console.log(err)
-            }
-          }
-          getCategories()
-          const getListFilms = async () => {
-            try{
-              const res = await fetch('http://localhost:4000/films')
-              const data = await res.json()
-              setListFilms(data) 
-              setIsLoading(false)
-            }catch(err){
-              console.log(err)
-            }
-            
-          }
-          getListFilms()
-    
-    },[])
+    const { listFilms, isLoading } = useContext(FilmsContext)
     if(isLoading){
         return (
-            <div className="container">
-                <div className="row">
-                    <h2>Loading...</h2>
-                </div>
-            </div>
+          <Loading />
         )
     }
     return (
@@ -47,7 +17,12 @@ const Film = () => {
                 <h1 className="title">Tất cả Film</h1>
                 <main className="col-md-9 pt-3 film-wrapper">
                     {listFilms.map((film,key) => {
-                           return(<Item film={film} listCategories={listCategories} key={key} />)
+                          return(
+                            <Item 
+                              film={film} 
+                              key={key}             
+                            />
+                          )
                         })}
                 </main>
                 <div className="col-md-3 pt-3">

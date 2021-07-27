@@ -29,6 +29,7 @@ const Watch = ({match}) => {
             }
         }
     },[params.get('episode')])
+    
 if(!currentEpisode){
     return (
         <>
@@ -82,5 +83,7 @@ if(!currentEpisode){
         </>
      );
 }
- 
+Watch.propTypes = {
+    
+}
 export default Watch;

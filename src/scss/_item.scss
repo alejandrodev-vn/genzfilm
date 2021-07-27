@@ -24,13 +24,29 @@
     img {
         object-fit: cover;
     }
+
     .name {
         font-size: 17px;
-        padding-left: 10px;
     }
     .name-small {
         font-size: 15px;
         color: #abb7c4;
-        padding-left: 10px;
+    }
+    .btn-like {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 26px;
+        background: transparent;
+        outline: none;
+        color: #eee;
+        border: none;
+        transition: 0.3s ease-in-out;
+        i {
+            display: block;
+        }
+        &:hover {
+            color: deeppink;
+        }
     }
 }

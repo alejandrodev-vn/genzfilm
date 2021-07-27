@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Banner = (props) => {
     return (
         <div className="banner">
-            <Link to="/film/13"
+            <Link to="/genzfilm/film/13"
                 className="banner__item">  
                 <img width="100%" height="350px" 
                 className="banner__item-img"
@@ -13,5 +13,7 @@ const Banner = (props) => {
         </div>
     )
 }
- 
+Banner.propTypes = {
+    
+}
 export default Banner;

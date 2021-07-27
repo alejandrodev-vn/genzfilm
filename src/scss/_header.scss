@@ -1,30 +1,34 @@
-header{
-    position:fixed;
-    width:100%;
-    height:106px;
+header {
+    position: fixed;
+    width: 100%;
+    height: 106px;
     z-index: 999999;
-    height:90px; 
+    height: 90px;
 }
-nav{
-    height:90px;
+nav {
+    height: 90px;
     box-shadow: 0px 3px 0px 0px #ff9438;
 }
-.nav-link{
+.nav-link {
     display: flex;
     justify-content: center;
+    &.active {
+        background: #fff !important;
+        color: #000 !important;
+    }
 }
-.nav-link i{
+.nav-link i {
     font-size: 19px;
     padding-left: 3px;
 }
-.navbar-brand{
+.navbar-brand {
     font-size: 30px;
 }
-.nav-item{
+.nav-item {
     position: relative;
     margin-left: 10px;
 }
-.nav-item__sublist{
+.nav-item__sublist {
     display: none;
     position: absolute;
     top: 100%;
@@ -36,18 +40,19 @@ nav{
     border-bottom: 1px solid #111;
 }
 
-.nav-item:hover .nav-item__sublist, .nav-item:focus .nav-item__sublist{
+.nav-item:hover .nav-item__sublist,
+.nav-item:focus .nav-item__sublist {
     display: flex;
 }
 .nav-item__sublist-item {
     display: block;
     width: 25%;
 }
-.nav-item .nav-item__sublist-item:hover a{
+.nav-item .nav-item__sublist-item:hover a {
     color: rgb(209, 124, 25) !important;
     text-decoration: underline;
 }
-.nav-item__sublist-item a{
+.nav-item__sublist-item a {
     display: block;
     text-align: center;
     padding: 10px 20px;
@@ -55,45 +60,48 @@ nav{
     font-weight: bold;
     color: #abb7c4;
 }
-.nav-link:hover, .nav-link:focus{
+.nav-link:hover,
+.nav-link:focus {
     font-weight: bold;
     color: #000 !important;
     background-color: #fff;
 }
-.nav-item:hover a, .nav-item:focus a{
+.nav-item:hover a,
+.nav-item:focus a {
     font-weight: bold;
     color: #000 !important;
     background-color: #fff;
 }
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
     color: #abb7c4;
 }
-.nav-item:hover, .nav-item:focus{
+.nav-item:hover,
+.nav-item:focus {
     font-weight: bold;
     color: #000;
     background-color: #fff;
 }
-.search-bar{
+.search-bar {
     display: inline-flex;
     position: relative;
 }
-.search-bar button{
+.search-bar button {
     position: absolute;
     right: 5%;
     top: 20%;
-    outline:none !important;
+    outline: none !important;
     border: none !important;
-    background:none !important;
+    background: none !important;
 }
-.search-bar button:hover{
+.search-bar button:hover {
     color: rgb(209, 124, 25);
 }
-.search-wrapper{
+.search-wrapper {
     width: 20%;
 }
-.search-wrapper form{
-    width:100%
+.search-wrapper form {
+    width: 100%;
 }
-.search-bar{
-    width:100%;
+.search-bar {
+    width: 100%;
 }

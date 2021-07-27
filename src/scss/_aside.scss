@@ -38,6 +38,7 @@
     overflow-y: scroll;
     &__item {
       height: 150px;
+      width: 100%;
       display: -webkit-inline-flex;
       flex-direction: column;
       justify-content: center;

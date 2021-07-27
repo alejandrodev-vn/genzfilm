@@ -1,52 +1,33 @@
-import { useState, useEffect } from 'react';
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useEffect, useState, useContext } from 'react';
 import Aside from '../components/Aside';
 import Banner from '../components/Banner';
 import Carousel from '../components/Carousel';
+import { FilmsContext } from '../contexts/FilmsContext'
 const Home = () => {
-    const [listNewFilms, setListNewFilms] = useState([])
-    const [listHotFilms, setListHotFilms] = useState([])
-    const [listCategories, setListCategories] = useState([])
+    const { listNewFilms, listHotFilms } = useContext(FilmsContext)
+    const [ isLoading, setIsLoading ] = useState(true)
       useEffect(() =>{
-        const getCategories = async () => {
-          try{
-            const res = await fetch('http://localhost:4000/categories')
-            const data = await res.json()        
-            setListCategories(data) 
-          }catch(err){
-            console.log(err)
-          }
+        const wating = setTimeout(() => {
+          setIsLoading(false)
+        },300)
+        return () =>{
+          clearTimeout(wating)
         }
-        getCategories()
-        const getListNewFilms = async () => {
-          try{
-            const res = await fetch('http://localhost:4000/films')
-            const data = await res.json()
-            let result = []
-            for(let i=data.length-1; i > data.length-9;i--){
-              result.push(data[i])
-            }
-            setListNewFilms(result) 
-          }catch(err){
-            console.log(err)
-          }
-          
-        }
-        getListNewFilms()
-   
-        const getListHotFilms = async () => {
-          try{
-            const res = await fetch('http://localhost:4000/hot-films')
-            const data = await res.json()
-            setListHotFilms(data) 
-          }catch(err){
-            console.log(err)
-          }
-          
-        }
-        getListHotFilms()
       },[])
-   
-   
+    
+   if(isLoading){
+     return (
+       <>
+          <Banner imageUrl="https://media.voocdn.com/media/image/id/60d3ec2e0df938e92e608545" />
+          <div className="container pt-3">
+            <div className="row">...Loading</div>
+          </div>
+       
+
+       </>
+     )
+   }
     return ( 
     <>
         <Banner imageUrl="https://media.voocdn.com/media/image/id/60d3ec2e0df938e92e608545" />
@@ -56,17 +37,17 @@ const Home = () => {
                 <Carousel 
                     title="Phim Hot trong tuần"
                     listFilms = {listHotFilms}
-                    listCategories={listCategories}
+          
                 />
                 <Carousel 
                     title="Phim mới"
                     listFilms = {listNewFilms}
-                    listCategories={listCategories}
+                
                 />
                 <Carousel 
                     title="Phim đề cử"
                     listFilms = {listNewFilms}
-                    listCategories={listCategories}
+                
                 />  
        
             </main>
@@ -78,5 +59,7 @@ const Home = () => {
     </>
     );
 }
- 
+Home.propTypes = {
+  
+}
 export default Home;

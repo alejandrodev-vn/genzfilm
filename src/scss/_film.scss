@@ -1,12 +1,14 @@
 .film-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
     .item {
         min-width: 210px;
         max-width: 210px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         margin-left: 14px;
+        .btn-like {
+            bottom: 15px;
+        }
     }
 }

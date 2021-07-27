@@ -10,7 +10,7 @@ const FilmDetail = ({match}) => {
     const [ listCategories, setListCategories ] = useState([])
     useEffect(()=>{
         const getType = async (typeId) =>{
-            const res = await fetch(`http://localhost:4000/types/${typeId}`)
+            const res = await fetch(`https://genzfilm.herokuapp.com/types/${typeId}`)
             const data = await res.json()
             setType(data)
         }
@@ -63,9 +63,8 @@ const FilmDetail = ({match}) => {
                                     <p className="film-info__left">Lượt xem: </p>
                                     <p className="film-info__right">235 <i  className="far fa-eye"></i></p>
                                 </div>
-                                {console.log(film.episode)}
                                 <Link to={
-                                    `/watch/${film.id}?episode=${(film.episode && film.episode[0]) ? film.episode[0].url : ''}`
+                                    `/genzfilm/watch/${film.id}?episode=${(film.episode && film.episode[0]) ? film.episode[0].url : ''}`
                                     } 
                                     className="btn btn-danger" 
                                     style={{marginTop:"10px",marginBottom:"5px"}}
@@ -87,5 +86,7 @@ const FilmDetail = ({match}) => {
         </>
      );
 }
- 
+FilmDetail.propTypes = {
+    
+}
 export default FilmDetail;

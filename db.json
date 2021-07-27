@@ -3,7 +3,7 @@
         { 
           "id": 1,
           "typeId": 1,
-          "country": 1,
+          "country": 2,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -20,7 +20,7 @@
         {
           "id": 2,
           "typeId": 1,
-          "country": 1,
+          "country": 5,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -41,7 +41,7 @@
         {
           "id": 3,
           "typeId": 1,
-          "country": 1,
+          "country": 5,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -62,7 +62,7 @@
         {
           "id": 4,
           "typeId": 1,
-          "country": 1,
+          "country": 2,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -83,7 +83,7 @@
         {
           "id": 5,
           "typeId": 1,
-          "country": 1,
+          "country": 5,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -119,7 +119,7 @@
         {
           "id": 6,
           "typeId": 1,
-          "country": 1,
+          "country": 2,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -215,7 +215,7 @@
         {
           "id": 7,
           "typeId": 1,
-          "country": 1,
+          "country": 2,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -246,7 +246,7 @@
         {
           "id": 8,
           "typeId": 1,
-          "country": 1,
+          "country": 5,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -312,7 +312,7 @@
         {
           "id": 9,
           "typeId": 1,
-          "country": 1,
+          "country": 5,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -338,7 +338,7 @@
         {
           "id": 10,
           "typeId": 1,
-          "country": 1,
+          "country": 5,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -434,7 +434,7 @@
         {
           "id": 11,
           "typeId": 1,
-          "country": 1,
+          "country": 5,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -550,7 +550,7 @@
         {
           "id": 12,
           "typeId": 1,
-          "country": 1,
+          "country": 5,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -666,7 +666,7 @@
         {
           "id": 13,
           "typeId": 1,
-          "country": 1,
+          "country": 2,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -687,6 +687,16 @@
             {
               "episode": "2 (Server Dự Phòng)",
               "url": "https://short.ink/kCtOilTtS",
+              "type": "iframe"
+            },
+            {
+              "episode": "3",
+              "url": "https://ok.ru/3257e655-a984-42f5-b89c-132192111207",
+              "type": "iframe"
+            },
+            {
+              "episode": "4",
+              "url": "https://ok.ru/92846f66-0fe8-4fe0-9ec9-53e280adbe79",
               "type": "iframe"
             }
           ],
@@ -49157,12 +49167,12 @@
         },
         {
           "id": 690,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 2,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [
             {
-            "idCategory": 5
+            "idCategory": 4
             }
           ],
           "episode": [
@@ -49177,12 +49187,12 @@
         },
         {
           "id": 691,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 2,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [
             {
-            "idCategory": 5
+            "idCategory": 4
             }
           ],
           "episode": [
@@ -49197,12 +49207,12 @@
         },
         {
           "id": 692,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 2,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [
             {
-            "idCategory": 5
+            "idCategory": 4
             }
           ],
           "episode": [
@@ -49217,12 +49227,12 @@
         },
         {
           "id": 694,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 2,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [
             {
-            "idCategory": 5
+            "idCategory": 4
             }
           ],
           "episode": [
@@ -49237,12 +49247,12 @@
         },
         {
           "id": 695,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 2,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [
             {
-            "idCategory": 5
+            "idCategory": 4
             }
           ],
           "episode": [
@@ -49257,12 +49267,12 @@
         },
         {
           "id": 696,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 2,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [
             {
-            "idCategory": 5
+            "idCategory": 4
             }
           ],
           "episode": [
@@ -49277,12 +49287,12 @@
         },
         {
           "id": 697,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 2,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [
             {
-            "idCategory": 5
+            "idCategory": 4
             }
           ],
           "episode": [
@@ -49297,12 +49307,12 @@
         },
         {
           "id": 698,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 2,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [
             {
-            "idCategory": 5
+            "idCategory": 4
             }
           ],
           "episode": [
@@ -49319,12 +49329,12 @@
    
         {
           "id": 699,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 2,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
-            "idCategory":2
+            "idCategory": 4
             }  
            ],
           "episode": [
@@ -49339,12 +49349,12 @@
         },
         {
           "id": 700,
-          "typeId": 1,
-          "country": 1,
+          "typeId": 3,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
-            "idCategory":8
+            "idCategory": 8
             }  
            ],
           "episode": [
@@ -49360,7 +49370,7 @@
         {
           "id": 701,
           "typeId": 1,
-          "country": 1,
+          "country": 5,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -49380,7 +49390,7 @@
         {
           "id": 702,
           "typeId": 1,
-          "country": 1,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -49400,7 +49410,7 @@
         {
           "id": 703,
           "typeId": 1,
-          "country": 1,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -49420,7 +49430,7 @@
         {
           "id": 704,
           "typeId": 1,
-          "country": 1,
+          "country": 4,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -49440,7 +49450,7 @@
         {
           "id": 705,
           "typeId": 1,
-          "country": 1,
+          "country": 3,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
@@ -54552,7 +54562,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum lacus, ullamcorper nec elit quis, suscipit pretium purus. Mauris eu vulputate felis, aliquet viverra ligula. Quisque malesuada, tellus non faucibus condimentum, diam nulla convallis magna, in venenatis odio turpis sit amet dolor. Sed pharetra scelerisque laoreet. In lectus odio, ultricies non justo at, fermentum posuere quam. Donec efficitur elit sit amet risus iaculis, sed finibus leo cursus. Maecenas bibendum consequat laoreet. Nullam mollis sagittis est. Donec non bibendum ipsum. Integer placerat sapien laoreet, sodales tellus nec, imperdiet justo.",
           "categories": [ 
             {
-            "idCategory":1
+            "idCategory":10
             }  
            ],
           "episode": [
@@ -55443,73 +55453,142 @@
   "categories" : [
       {
           "id": 1,
-          "name" : "Tình cảm"
+          "name" : "Tình cảm",
+          "cover": "love.jpg"
       },
       {
           "id": 2,
-          "name" : "Hành động"
+          "name" : "Hành động",
+          "cover": "action.jpg"
       },
       {
           "id": 3,
-          "name" : "Tâm lý"
+          "name" : "Tâm lý",
+          "cover": "mentality.jpg"
       },
       {
           "id": 4,
-          "name" : "Khoa học viễn tưởng"
+          "name" : "Khoa học viễn tưởng",
+          "cover": "sciene-fiction.jpg"
       },
       {
           "id": 5,
-          "name" : "Phiêu lưu"
+          "name" : "Phiêu lưu",
+          "cover": "aventure.jpg"
       },
       {
           "id": 6,
-          "name" : "Giải trí"
+          "name" : "Giải trí",
+          "cover": "entertainment.jpg"
       },
       {
           "id": 7,
-          "name" : "Thần thoại"
+          "name" : "Thần thoại",
+          "cover": "legend.jpg"
       },
       {
           "id": 8,
-          "name" : "Kinh dị"
+          "name" : "Kinh dị",
+          "cover": "horror.jpg"
       },
       {
           "id": 9,
-          "name": "Cổ trang"
+          "name": "Cổ trang",
+          "cover": "antique.jpg"
       },
       {
           "id": 10,
-          "name" : "Hoạt hình"
+          "name" : "Hoạt hình",
+          "cover": "cartoon.jpeg"
       },
       {
         "id": 11,
-        "name" : "TV Show"
+        "name" : "TV Show",
+        "cover": "TV-show.jpg"
       },
       {
         "id": 12,
-        "name" : [
-            {
-            "idCategory": 5
-            }
-          ]
+        "name" : "Hài hước",
+        "cover": "comedy.jpg"
       }
   ],
   "countries": [
     {
       "id": 1,
-      "name" : "Hàn Quốc"
-    },
-    {
-      "id": 2,
       "name" : "Việt Nam"
     },
     {
-      "id": 1,
+      "id": 2,
+      "name" : "Hàn Quốc"
+    },
+    {
+      "id": 3,
       "name" : "Nhật Bản"
     },
     {
-      "id": 1,
+      "id": 4,
       "name" : "Mỹ"
+    },
+    {
+      "id": 5,
+      "name" : "Trung Quốc"
+    }
+  ],
+  "banners" : [
+    {
+      "id":13,
+      "name":"Dẫu biết",
+      "nameEnglish": "Nevertheless",
+      "link": "#",
+      "imageUrl":"https://lh3.googleusercontent.com/NKCXv8dPOkGI_TYnmzzU3MglMsAWchvVrpoRmE7gGaHwUgzP298VKeF4efDGUysyvzIXFZIw-EwUmGLBZSOvwd4iGdhb-sE-qk7lNgENBmeF4Hw=w960-rj-nu-e365"
+    },
+    {"id":862,
+      "name":"Vua hải tặc",
+      "nameEnglish": "One Piece",
+      "link": "#",
+      "imageUrl":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8254d2be-461b-4f09-a664-cf161192e0b7/d60prj8-c99adb56-3a25-40a8-9388-59f4018982dd.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgyNTRkMmJlLTQ2MWItNGYwOS1hNjY0LWNmMTYxMTkyZTBiN1wvZDYwcHJqOC1jOTlhZGI1Ni0zYTI1LTQwYTgtOTM4OC01OWY0MDE4OTgyZGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZXqiD3SjRYmRnnNtqIqGMmBQT5rT-OGSdxmXjyYT2W8"
+    },
+    {
+      "id":3,
+      "name":"Thẩm Phán Ác Ma - The Devil Judge (2021)",
+      "nameEnglish": "The Devil Judge",
+      "link": "#",
+      "imageUrl":"https://bloganchoi.com/wp-content/uploads/2021/07/review-phim-tham-phan-quy-du-the-devil-judge-10.jpg"
+    },
+    {
+      "id":4,
+      "name":"Ký Ức Tuổi 18",
+      "nameEnglish": "Live on - 2020",
+      "link": "#",
+      "imageUrl":"https://dulichsing.com/wp-content/uploads/2020/11/liveon-1.jpg"
+    },
+    {
+      "id":5,
+      "name":"Kế hoạch của tôi",
+      "nameEnglish": "Here’s My Plan",
+      "link": "#",
+      "imageUrl":"data:image/jpeg;base64,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"
+    },
+    {
+      "id":6,
+      "name":"Sweet Tooth 2021: Cậu Bé Gạc Nai (Netflix)",
+      "nameEnglish": "Sweet Tooth 2021",
+      "link": "#",
+      "imageUrl":"https://m.media-amazon.com/images/M/MV5BNDNkMWVjNjEtYzk1Yy00NTI5LThhYTctNTRkZTU3NzQ3MmYwXkEyXkFqcGdeQXNuZXNodQ@@._V1_.jpg"
+    },
+    {
+      "id":7,
+      "name":"Quyến Tư Lượng - The Island of Siliang (2021)",
+      "nameEnglish": "The Island of Siliang",
+      "link": "#",
+      "imageUrl":"https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/60d5eafbd0a354411d48f017_banner-quyen-tu-luong.jpg"
+    },
+    {
+      "id":8,
+      "name":"Thám tử lừng danh Conan",
+      "nameEnglish": "Conan",
+      "link": "#",
+      "imageUrl" :"https://khenphim.com/wp-content/uploads/2018/08/Conan-2018-Zero.the_.Enforcer-4-banner.jpg"
     }
   ]
 }

@@ -1,0 +1,47 @@
+.genres-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .genre {
+        min-width: 210px;
+        max-width: 210px;
+        border-radius: 10px;
+        border: 1px solid #eee;
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+        &:hover,
+        &:focus,
+        &:focus-visible {
+            transform: scale(1.1);
+            .btn-genre {
+                background: linear-gradient(to right, rgb(230, 92, 0), rgb(249, 212, 35)) !important;
+            }
+        }
+        img {
+            object-fit: cover;
+        }
+        .genre-body {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .btn-genre {
+                transition: 0.3s ease-in-out;
+                color: #000;
+                width: 100%;
+                text-align: center;
+                box-shadow: 0px 0px 9px rgb(249, 212, 35);
+                background: linear-gradient(to right, #e65c008c, #f9d423bf);
+            }
+        }
+    }
+}

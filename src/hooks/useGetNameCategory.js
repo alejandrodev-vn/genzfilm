@@ -9,6 +9,7 @@ function useGetNameCategory(film, listCategories) {
                 return name
             })
         }
+        return
     }
   
     const loopCat = (categories) => {
@@ -23,15 +24,13 @@ function useGetNameCategory(film, listCategories) {
     }
     const getCategories = () => {
         const listName =  getNameCategory();
-        if(listName){
+        if(listName && listName.length!==0){
             return loopCat(listName)
         }
+        return 'Không có'
     }
     let categoriesString = getCategories()
     return categoriesString
-
-    
- 
 }
 
 export default useGetNameCategory;
