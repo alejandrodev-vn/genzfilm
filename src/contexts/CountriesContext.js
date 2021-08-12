@@ -1,13 +1,15 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { createContext, useState, useEffect } from 'react'
 
 export const CountriesContext = createContext()
 
 export const CountriesProvider = ({children}) => {
     const [ listCountries, setListCountries ] = useState([])
+    const domain = process.env.REACT_APP_DOMAIN
     useEffect(() =>{
         const getCountries = async () => {
             try{
-              const res = await fetch('http://localhost:4000/countries')
+              const res = await fetch(`${domain}/countries`)
               const data = await res.json()        
               setListCountries(data) 
             }catch(err){
@@ -17,7 +19,7 @@ export const CountriesProvider = ({children}) => {
           getCountries()
     },[])
     return (
-        <CountriesContext.Provider value={[ listCountries, setListCountries ]}>
+        <CountriesContext.Provider value={{ listCountries, setListCountries }}>
             {children}
         </CountriesContext.Provider>
     )

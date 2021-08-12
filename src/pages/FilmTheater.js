@@ -1,16 +1,29 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useContext } from 'react';
-import Aside from '../components/Aside';
-import Item from '../components/Item';
-import Loading from '../components/Loading';
-import { FilmsContext } from '../contexts/FilmsContext';
+import Aside from 'components/Aside';
+import Breadcrumb from 'components/Breadcrumb';
+import Item from 'components/Item';
+import Loading from 'components/Loading';
+import { FilmsContext } from 'contexts/FilmsContext';
 
 
 const FilmTheater = () => {
     const { listFilms } = useContext(FilmsContext)
     const [ isLoading, setIsLoading ] = useState(true)
     const [ listFilmsTheater, setListFilmsTheater ] = useState([]) 
-
+    const listBreadcrumb = [
+        {
+          title: 'Trang chủ',
+          link:'',
+          isActive: false
+        },
+        {
+          title: 'Phim chiếu rạp',
+          link:'film-theater',
+          isActive: true
+        }
+        
+      ]
     useEffect(() =>{
         const getFilmsTheater = () => {
             let result = []
@@ -31,8 +44,9 @@ const FilmTheater = () => {
         )
     }
     return (
-        <div className="container">
+        <div className="container pt-3">
             <div className="row">
+            <Breadcrumb listBreadcrumb={listBreadcrumb} />
                 <h1 className="title">Film chiếu rạp</h1>
                 <main className="col-md-9 pt-3 film-wrapper">
                     {listFilmsTheater.map((film,key) => {

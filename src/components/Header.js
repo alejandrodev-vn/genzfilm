@@ -3,9 +3,30 @@ import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { CategoriesContext } from '../contexts/CategoriesContext';
 import { CountriesContext } from '../contexts/CountriesContext';
+import { ListLikeContext } from '../contexts/ListLikeContext';
+import { AuthContext } from '../contexts/AuthContext';
 const Header = () => {
-    const [ listCategories ] = useContext(CategoriesContext)
-    const [ listCountries ] = useContext(CountriesContext)
+    const { listCategories } = useContext(CategoriesContext)
+    const { listCountries } = useContext(CountriesContext)
+    const { listLike } = useContext(ListLikeContext)
+    const { userInfo, isLogged, handleLogout } = useContext(AuthContext)
+    const handleClickLogout = (e) => {
+        e.preventDefault()
+        handleLogout()
+    }
+    let buttonLogin
+    if(isLogged) {
+        buttonLogin =<>
+                        <p className="nav-link" style={{paddingRight: 15, color:'#abb7c4'}}>{userInfo.fullname}</p>
+                        <Link className="nav-link" onClick={handleClickLogout} style={{paddingRight: 15, color:'#abb7c4'}} to="/genzfilm">
+                            Đăng xuất
+                        </Link>
+                    </>
+    }else {
+        buttonLogin = <NavLink className="nav-link"  style={{paddingRight: 15, color:'#abb7c4'}} to="/genzfilm/login">
+                        Đăng nhập
+                    </NavLink>
+    }
     return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark ps-4 pe-4">
@@ -55,10 +76,22 @@ const Header = () => {
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/genzfilm/theater">Phim chiếu rạp</NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" style={{paddingRight: 15}} to="/genzfilm/favourite">
+                                Phim yêu thích 
+                                <span 
+                                    style={{color: 'tomato', position: 'absolute', top: 0, right: 3}}
+                                > {listLike.length}</span>
+                            </NavLink>
+                        </li>
                 
                     </ul>
                 </div>
-                <div className="search-wrapper">
+                <NavLink className="nav-link" style={{paddingRight: 15, color:'#abb7c4'}} to="/genzfilm/baocao">
+                    Báo cáo
+                </NavLink>
+                {buttonLogin}
+                {/* <div className="search-wrapper">
                     <form action="search">
                         <div className="search-bar">
                             <input type="text" className="form-control" placeholder="Tìm kiếm phim..."/>
@@ -66,7 +99,7 @@ const Header = () => {
                         </div>
                       
                     </form>
-                </div>
+                </div> */}
             </nav>
         </header>
     )

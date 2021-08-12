@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const Breadcrumb = (props) => {
     const { listBreadcrumb } = props
-    console.log(listBreadcrumb)
     const processBreadcrumb = () => {
         let html = <ol className="breadcrumb">
             {listBreadcrumb.map((breadcrumb, index) => {

@@ -1,23 +1,56 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-expressions */
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
+import ReactPaginate from 'react-paginate';
 import { Link } from 'react-router-dom';
-import Aside from '../components/Aside';
-import Item from '../components/Item';
-import Loading from '../components/Loading';
-import useLocalStorage from '../hooks/useLocalStorage';
+import Aside from 'components/Aside';
+import Breadcrumb from 'components/Breadcrumb';
+import Item from 'components/Item';
+import Loading from 'components/Loading';
 const GenreDetail = ({match}) => {
     const [ listFilms, setListFilms ] = useState([])
-    const [ listCategories, setListCategories ] = useState([])
-    const [ categoryDetail, setCategoryDetail ] = useState({})
+    const [ category, setCategory ] = useState({})
     const [ isLoading, setIsLoading ] = useState(true)
-    const [ listLike, setListLike ] = useLocalStorage("listLike",localStorage.getItem('listLike') || [])
-    const url = "http://localhost:4000/"
+    const [ pageNumber, setPageNumber ] = useState(0)
+    const filmsPerPage = 20
+    const pagesVisited = pageNumber * filmsPerPage
+    const displayFilms = listFilms
+      .slice(pagesVisited, pagesVisited + filmsPerPage)
+      .map(film => {
+        return(
+          <Item 
+            film={film} 
+            key={film.id}             
+          />
+        )
+      })
+    const pageCount = Math.ceil(listFilms.length / filmsPerPage)
+    const handleChangePage = ({selected}) => {
+      setPageNumber(selected)
+    }
+    const listBreadcrumb = [
+        {
+          title: 'Trang chủ',
+          link:'',
+          isActive: false
+        },
+        {
+          title: 'Thể loại',
+          link:'genre',
+          isActive: false
+        },
+        {
+          title: category.name,
+          link:category.id,
+          isActive: true
+        },
+      ]
+    const domain = process.env.REACT_APP_DOMAIN
     const { id } = match.params
     useEffect(() =>{
         const getListFilm = async () => {
             try {
-               const res = await fetch(`${url}films`) 
+               const res = await fetch(`${domain}/films`) 
                const data = await res.json()
                let result = []
                for(let i = 0; i < data.length; i++){
@@ -33,21 +66,11 @@ const GenreDetail = ({match}) => {
             }
         }
         getListFilm()
-        const getListCategories = async () => {
-            try {
-               const res = await fetch(`${url}categories`) 
-               const data = await res.json()
-               setListCategories(data)
-            } catch (error) {
-                console.log(error)
-            }
-        }
-        getListCategories()
         const getCategoryDetail = async () => {
             try {
-               const res = await fetch(`${url}categories/${id}`) 
+               const res = await fetch(`${domain}/categories/${id}`) 
                const data = await res.json()
-               setCategoryDetail(data)
+               setCategory(data)
             } catch (error) {
                 console.log(error)
             }
@@ -57,23 +80,11 @@ const GenreDetail = ({match}) => {
         //cleanup before unmount
         return () => {
             setListFilms([])
-            setListCategories([])
-            setCategoryDetail({})
+            setCategory({})
         }
     },[id])
      
-    const onLikeItem = (id) => {
-        const listTemp = [...listLike]
-        const findItem = listTemp.find(item=> item === id)
-        if(findItem){
-          const index = listTemp.findIndex(item=> item === id)
-          listTemp.splice(index, 1)
-        }else{
-          listTemp.push(id)
-        }
-        setListLike(listTemp)
-        
-      }
+
    if(isLoading) {
        return (
             <Loading />
@@ -83,7 +94,7 @@ const GenreDetail = ({match}) => {
         return(
             <div className="container">
                 <div className="row">
-                    <h1 className="title">Thể loại: {categoryDetail.name}</h1>
+                    <h1 className="title">Thể loại: {category.name}</h1>
                     <h3>Không có kết quả</h3>
                     <Link to="/genzfilm/genre">
                         <i className="fad fa-arrow-left"></i> Hãy tìm thế loại khác
@@ -93,21 +104,24 @@ const GenreDetail = ({match}) => {
         )
     }
     return (
-        <div className="container">
+        <div className="container pt-3">
         <div className="row">
-        <h1 className="title">Thể loại: {categoryDetail.name}</h1>
+        <Breadcrumb listBreadcrumb={listBreadcrumb} />
+
+        <h1 className="title">Thể loại: {category.name}</h1>
             <main className="col-md-9 pt-3 flex film-wrapper">
-                {listFilms.map((film,key) => {
-                      return(
-                        <Item 
-                          film={film} 
-                          listCategories={listCategories} 
-                          key={key} 
-                          listLike={listLike}
-                          onLikeItem={onLikeItem}
-                        />
-                      )
-                    })}
+                {displayFilms}
+                <ReactPaginate 
+                    previousLabel={`Previous`}
+                    nextLabel={`Next`}
+                    pageCount={pageCount}
+                    onPageChange={handleChangePage}
+                    containerClassName={`pagination-wrapper`}
+                    previousLinkClassName={`previousBtn`}
+                    nextLinkClassName={`nextBtn`}
+                    disabledClassName={`paginationDisabled`}
+                    activeClassName={`paginationActive`}
+                />
             </main>
             <div className="col-md-3 pt-3">
                 <Aside />

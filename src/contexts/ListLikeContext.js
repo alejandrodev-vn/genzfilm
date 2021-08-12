@@ -18,7 +18,7 @@ export const ListLikeProvider = ({children}) => {
         
     }
     return (
-        <ListLikeContext.Provider value={[ listLike, onLikeItem ]}>
+        <ListLikeContext.Provider value={{ listLike, onLikeItem }}>
             {children}
         </ListLikeContext.Provider>
     )

@@ -1,9 +1,9 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState, useContext } from 'react';
-import Aside from '../components/Aside';
-import Banner from '../components/Banner';
-import Carousel from '../components/Carousel';
-import { FilmsContext } from '../contexts/FilmsContext'
+import Aside from 'components/Aside';
+import Banner from 'components/Banner';
+import Carousel from 'components/Carousel';
+import { FilmsContext } from 'contexts/FilmsContext'
 const Home = () => {
     const { listNewFilms, listHotFilms } = useContext(FilmsContext)
     const [ isLoading, setIsLoading ] = useState(true)

@@ -1,27 +1,31 @@
-import React, { useState, useEffect} from 'react';
-import { Link } from 'react-router-dom'
-import Aside from '../components/Aside'
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import Aside from 'components/Aside';
+import Breadcrumb from 'components/Breadcrumb';
+import { CategoriesContext } from 'contexts/CategoriesContext';
 const Genre = ({match}) => {
-    const [ listCategories, setListCategories ] = useState([])
-    useEffect(() =>{
-        const getCategories = async () => {
-            try{
-              const res = await fetch('http://localhost:4000/categories')
-              const data = await res.json()        
-              setListCategories(data) 
-            }catch(err){
-              console.log(err)
-            }
-          }
-          getCategories()
-          return () => {
-              setListCategories([])
-          }
-    },[])
+    const { listCategories } = useContext(CategoriesContext)
+    const listBreadcrumb = [
+        {
+          title: 'Trang chủ',
+          link:'',
+          isActive: false
+        },
+        {
+          title: 'Thể loại',
+          link:'genre',
+          isActive: true
+        }
+        
+      ]
     return (
-        <div className="container">
+        <div className="container pt-3">
             <div className="row">
+            <Breadcrumb listBreadcrumb={listBreadcrumb} />
+            <h1 className="title">Thể loại</h1>
+
                 <div className="col-md-9 pt-3 genres-wrapper">
+
                     {listCategories.map((category,key)=>{
                         return (
                             <div className="genre" key={key}>

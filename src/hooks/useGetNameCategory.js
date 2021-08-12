@@ -9,7 +9,7 @@ function useGetNameCategory(film, listCategories) {
                 return name
             })
         }
-        return
+        return  
     }
   
     const loopCat = (categories) => {

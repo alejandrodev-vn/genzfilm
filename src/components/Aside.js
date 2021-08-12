@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-globals */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect } from 'react';
-import ItemRating from './ItemRating'
+import ItemRating from './ItemRating';
 const Aside = () =>{
     const [ listBanner, setListBanner ] = useState([])
     const url = 'http://localhost:4000/banners'

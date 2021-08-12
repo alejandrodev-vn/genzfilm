@@ -4,11 +4,11 @@
 /* eslint-disable no-restricted-globals */
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
-import Aside from '../components/Aside'
+import Aside from 'components/Aside'
+import Comment from 'components/Comment';
 const Watch = ({match}) => {
     const params = new URLSearchParams(location.search)
     let url = params.get('episode')
-
     const [ film, setFilm ] = useState({})
     const [ allEpisodes, setAllEpisodes ] = useState([])
     const [ currentEpisode, setCurrentEpisode ] = useState({})
@@ -74,6 +74,7 @@ if(!currentEpisode){
                         })}
                        
                     </div>
+                    <Comment idFilm={film.id} />
                 </div>
                 <div className="col-md-3 pt-3">
                     <Aside />

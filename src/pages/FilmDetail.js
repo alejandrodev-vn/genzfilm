@@ -3,12 +3,32 @@
 /* eslint-disable array-callback-return */
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
-import Aside from '../components/Aside'
-import useGetNameCategory from '../hooks/useGetNameCategory';
+import Aside from 'components/Aside'
+import Breadcrumb from 'components/Breadcrumb';
+import Comment from 'components/Comment';
+import useGetNameCategory from 'hooks/useGetNameCategory';
+
 const FilmDetail = ({match}) => {
     const [ film, setFilm ] = useState({})
     const [ type, setType ] = useState({})
     const [ listCategories, setListCategories ] = useState([])
+    const listBreadcrumb = [
+        {
+          title: 'Trang chủ',
+          link:'',
+          isActive: false
+        },
+        {
+          title: 'Tất cả film',
+          link:'film',
+          isActive: true
+        },
+        {
+          title: film.title,
+          link:'film',
+          isActive: true
+        },
+      ]
     const domain = process.env.REACT_APP_DOMAIN
     useEffect(()=>{
         const getType = async (typeId) =>{
@@ -38,12 +58,14 @@ const FilmDetail = ({match}) => {
     },[match.params.id])
     
     const  categoriesString  = useGetNameCategory(film, listCategories)
-
+  
     return ( 
         <>
         <div className="container">
             <div className="row">
                 <div className="col-md-9 pt-3">
+                <Breadcrumb listBreadcrumb={listBreadcrumb} />
+
                     <div className="info-wrapper">
                         <div className="info-title">
                             <h2 className="title text-md-center">{film.title}</h2>
@@ -84,6 +106,7 @@ const FilmDetail = ({match}) => {
                             </div>
                         </div>
                     </div>
+                <Comment idFilm={film.id} />
                 </div>
                 <div className="col-md-3 pt-3">
                     <Aside />

@@ -1,0 +1,26 @@
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    li {
+        a {
+            padding: 3px 12px;
+            background: #eee;
+            margin-right: 3px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+            color: #000 !important;
+        }
+        &.paginationActive a,
+        &:hover a {
+            background: #ff9438;
+            color: white;
+        }
+        &.paginationDisabled a {
+            background: grey;
+        }
+    }
+}

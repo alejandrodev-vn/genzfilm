@@ -9,8 +9,8 @@ import { ListLikeContext } from '../contexts/ListLikeContext';
 import useGetNameCategory from '../hooks/useGetNameCategory';
 const Item = (props) => {
     const { film } = props
-    const [ listCategories ] = useContext(CategoriesContext)
-    const [ listLike , onLikeItem ] = useContext(ListLikeContext)
+    const { listCategories } = useContext(CategoriesContext)
+    const { listLike , onLikeItem } = useContext(ListLikeContext)
     const [ like, setLike ] = useState(false)
     const categoriesString  = useGetNameCategory(props.film, listCategories)
 
